@@ -12,7 +12,20 @@ In order to build and run this showcase you need to have a couple of things inst
 * An IDE for the development, like Visual Studio Code or IntelliJ
 * The Docker Toolbox or native Docker, whatever you prefer
 
-== References
+== Building the Go microservices
+
+```bash
+$ go build
+$ ./Cloud-Native-Go.exe
+```
+
+== Containerization with Docker
+
+```bash
+$ docker build -t Cloud-Native-Go:1.0.1 .
+$ docker tag Cloud-Native-Go:1.0.1 lreimer/Cloud-Native-Go:1.0.1
+$ docker push lreimer/Cloud-Native-Go:1.0.1
+```
 
 == Maintainer and Author
 
