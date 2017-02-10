@@ -1,11 +1,7 @@
-FROM golang:1.7.4-alpine
+FROM alpine:3.5
 
-ENV SOURCES /go/src/github.com/PacktPublishing/Cloud-Native-Go/
-
-COPY . ${SOURCES}
-
-RUN cd ${SOURCES} && CGO_ENABLED=0 go install -a
+COPY ./Cloud-Native-Go /app/Cloud-Native-Go
 
 EXPOSE 8080
 
-ENTRYPOINT Cloud-Native-Go
+ENTRYPOINT /app/Cloud-Native-Go

@@ -22,9 +22,9 @@ $ ./Cloud-Native-Go.exe
 == Containerization with Docker
 
 ```bash
-$ docker build -t Cloud-Native-Go:1.0.1 .
-$ docker tag Cloud-Native-Go:1.0.1 lreimer/Cloud-Native-Go:1.0.1
-$ docker push lreimer/Cloud-Native-Go:1.0.1
+$ docker build -t cloud-native-go:1.0.1 .
+$ docker tag cloud-native-go:1.0.1 lreimer/cloud-native-go:1.0.1
+$ docker push lreimer/cloud-native-go:1.0.1
 ```
 
 == Maintainer and Author
