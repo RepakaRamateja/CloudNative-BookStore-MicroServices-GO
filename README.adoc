@@ -23,8 +23,43 @@ $ ./Cloud-Native-Go.exe
 
 ```bash
 $ docker build -t cloud-native-go:1.0.1 .
+$ docker images
 $ docker tag cloud-native-go:1.0.1 lreimer/cloud-native-go:1.0.1
 $ docker push lreimer/cloud-native-go:1.0.1
+```
+
+== Running Docker image locally
+
+```bash
+$ docker run -it -p 8080:8080 cloud-native-go:1.0.1
+$ docker run -it -e "PORT=9090" -p 9090:9090 cloud-native-go:1.0.1
+$ docker ps --all
+
+$ docker run --name=cloud-native-go -d -p 8080:8080 cloud-native-go:1.0.1
+$ docker ps
+$ docker stats
+$ docker stop
+$ docker start
+```
+
+== Improved Containerization with Docker
+
+```bash
+$ GOOS=linux GOARCH=amd64 go build
+$ docker build -t cloud-native-go:1.0.1-alpine .
+$ docker images
+$ docker tag cloud-native-go:1.0.1-alpine lreimer/cloud-native-go:1.0.1-alpine
+$ docker push lreimer/cloud-native-go:1.0.1-alpine
+```
+
+== Docker Compose
+
+```bash
+$ docker-compose build
+$ docker images
+$ docker-compose up -d
+$ docker-compose kill
+$ docker-compose rm
 ```
 
 == Maintainer and Author
