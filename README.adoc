@@ -120,7 +120,7 @@ $ kubectl apply -f k8s-deployment.yml
 
 $ kubectl edit deployment cloud-native-go
 
-$ kubectl set image deployment cloud-native-go cloud-native-go=cloud-native-go:1.1.0
+$ kubectl set image deployment cloud-native-go cloud-native-go=cloud-native-go:1.0.2
 
 $ kubectl rollout history deployment cloud-native-go
 $ kubectl rollout undo deployment cloud-native-go --to-revision=0

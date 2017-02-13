@@ -6,8 +6,8 @@ metadata:
     app: cloud-native-go
 spec:
   replicas: 2
+  revisionHistoryLimit: 10
   minReadySeconds: 5
-  revisionHistoryLimit: 5
   strategy:
     type: RollingUpdate
     rollingUpdate:
@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: cloud-native-go
-        image: "cloud-native-go:1.0.0"
+        image: "cloud-native-go:1.0.1"
         resources:
           requests:
             memory: "64Mi"
@@ -45,4 +45,4 @@ spec:
           timeoutSeconds: 5       
         env:
         - name: PORT
-          value: 8080
+          value: "8080"
