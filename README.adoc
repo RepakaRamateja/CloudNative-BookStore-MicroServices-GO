@@ -62,6 +62,32 @@ $ docker-compose kill
 $ docker-compose rm
 ```
 
+== Kubernetes and Pods
+
+```bash
+$ kubectl get pods
+$ kubectl create -f k8s-pod.yml
+$ kubectl get pods
+$ kubectl describe pod cloud-native-go
+
+$ kubectl port-forward cloud-native-go 8080:8080
+
+$ kubectl get pods --show-labels
+$ kubectl get pods -o wide -L env
+$ kubectl label pod cloud-native-go hello=world
+$ kubectl get pods -o wide -L hello
+$ kubectl label pod cloud-native-go env=prod --overwrite
+$ kubectl get pods -o wide -L env
+
+$ kubectl get ns
+$ kubectl get pods --namespace kube-system
+$ kubectl create -f k8s-namespace.yml
+$ kubectl get ns
+$ kubectl create -f k8s-pod.yml --namespace cloud-native-go
+
+$ kubectl delete pod cloud-native-go
+```
+
 == Maintainer and Author
 
 M.-Leander Reimer (@lreimer)

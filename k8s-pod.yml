@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: cloud-native-go
+  labels:
+    language: go
+    env: test
+spec:
+  containers:
+  - image: cloud-native-go:1.0.0
+    name: cloud-native-go
+    ports:
+    - containerPort: 8080
+      protocol: TCP
