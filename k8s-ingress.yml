@@ -1,0 +1,11 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: cloud-native-go
+  labels:
+    app: cloud-native-go
+    tier: frontend
+spec:
+  backend:
+    serviceName: cloud-native-go
+    servicePort: 8080

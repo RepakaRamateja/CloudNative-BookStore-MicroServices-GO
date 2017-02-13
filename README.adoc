@@ -85,8 +85,27 @@ $ kubectl create -f k8s-namespace.yml
 $ kubectl get ns
 $ kubectl create -f k8s-pod.yml --namespace cloud-native-go
 
-$ kubectl delete pod cloud-native-go
+$ kubectl delete -f k8s-pod.yml
 ```
+
+== Kubernetes Deployments and Services
+
+```bash
+$ kubectl get services,deployments,pods
+
+$ kubectl create -f k8s-deployment.yml
+$ kubectl get deployments,pods
+
+$ kubectl apply -f k8s-deployment.yml
+
+$ kubectl create -f k8s-service.yml
+$ kubectl get services
+$ kubectl describe service cloud-native-go
+
+$ kubectl delete -f k8s-deployment.yml
+$ kubectl delete -f k8s-service.yml
+```
+
 
 == Maintainer and Author
 
