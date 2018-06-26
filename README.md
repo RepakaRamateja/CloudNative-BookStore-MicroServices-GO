@@ -68,25 +68,18 @@ finally did rolling upgrade of go micro service
 </tr>
 </thead>
 <tbody>
-	<tr>
-		<td>Front-End</td>
-		<td> HTML5, Bootstrap, CSS3, Socket.IO, highcharts.js </td>
-	</tr>
-	<tr>
-		<td>Back-End</td>
-		<td>Express, Node.js</td>
-	</tr>
+	
   <tr>
-		<td>Cluster Computing Framework</td>
-		<td>Apache Spark (python)</td>
+		<td> Programming Languages Used </td>
+		<td> Go lang </td>
 	</tr>
 	<tr>
-		<td>Message Broker</td>
-		<td>Apache kafka</td>
+		<td> Micro Service Containerization </td>
+		<td> Docker </td>
 	</tr>
 	<tr>
-		<td>Environment</td>
-		<td>CloudxLab</td>
+		<td>Micro Service Orchestration </td>
+		<td> Kubernetes </td>
 	</tr>
 </tbody>
 </table>
