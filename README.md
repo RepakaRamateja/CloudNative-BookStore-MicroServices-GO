@@ -216,5 +216,31 @@ $ kubectl delete -f k8s-deployment.yml
 
 ## Screen shots
 
+### Get by ISBN
+
+![alt text](https://github.com/RepakaRamateja/CloudNative-Book-Stock-Micro-Service-Rest-API/blob/master/images/1.png)
+
+### Get All books
+
+![alt text](https://github.com/RepakaRamateja/CloudNative-Book-Stock-Micro-Service-Rest-API/blob/master/images/2.png)
+
+### Create Book 
+
+![alt text](https://github.com/RepakaRamateja/CloudNative-Book-Stock-Micro-Service-Rest-API/blob/master/images/3.png)
+
+![alt text](https://github.com/RepakaRamateja/CloudNative-Book-Stock-Micro-Service-Rest-API/blob/master/images/4.png)
+
+### Update book
+
+![alt text](https://github.com/RepakaRamateja/CloudNative-Book-Stock-Micro-Service-Rest-API/blob/master/images/6.png)
+
+![alt text](https://github.com/RepakaRamateja/CloudNative-Book-Stock-Micro-Service-Rest-API/blob/master/images/7.png)
+
+### Delete a book
+
+![alt text](https://github.com/RepakaRamateja/CloudNative-Book-Stock-Micro-Service-Rest-API/blob/master/images/5.png)
+
+![alt text](https://github.com/RepakaRamateja/CloudNative-Book-Stock-Micro-Service-Rest-API/blob/master/images/dlast.png)
+
 
 
