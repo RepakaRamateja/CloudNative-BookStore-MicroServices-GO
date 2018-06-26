@@ -45,7 +45,7 @@ finally did rolling upgrade of go micro service
 
 </br>
 
-![alt text]()
+![alt text](https://github.com/RepakaRamateja/CloudNative-Book-Stock-Micro-Service-Rest-API/blob/master/images/arch.png)
 
 </br>
 
@@ -53,7 +53,8 @@ finally did rolling upgrade of go micro service
 
 ## Technology stack
 
-![alt text]()
+![alt text](![alt text](https://github.com/RepakaRamateja/CloudNative-Book-Stock-Micro-Service-Rest-API/blob/master/images/stack.png)
+)
 
 
 </br>    
