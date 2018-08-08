@@ -1,6 +1,6 @@
-# CloudNative-Book-Stock-Micro-Service-Rest-API
+# CloudNative-Book-Store-Micro-Service-Rest-API
 
-Micro Service based Http Book Stock Rest API built using Cloud Native Stack ( GO LANG | DOCKER | KUBERNETES)
+Micro Service based Http Book Store Rest API built using Cloud Native Stack ( GO LANG | DOCKER | KUBERNETES)
 
 </br>
 
@@ -15,7 +15,7 @@ Taught By : Leander Reimer (Packt Publishing)
 
 ## Goal
 
-• The goal is to build Micro Service based Http Book Stock Rest API , containerize it using Docker and finally orchestrate using Kubernetes
+• The goal is to build Micro Service based Http Book Store Rest API , containerize it using Docker and finally orchestrate using Kubernetes
 
 • The project was developed using GO LANG | DOCKER | KUBERNETES
 
